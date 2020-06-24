@@ -70,7 +70,7 @@ const expected_result = 43;
 //Dica: Utilize a função reduce
 
 function averageAge() {
-  // escreva seu código aqui
+
 }
 
 assert.equal(averageAge(), expected_result);
