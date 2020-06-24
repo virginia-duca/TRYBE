@@ -18,7 +18,7 @@ const ships = [
 ]
 
 // escreva shipLength abaixo
-
+// por algum motivo nao esta funcionando
 function shipLength({name, length, mesurementUnit = 'meters'}){
     return `${name} is ${length} ${mesurementUnit} long`
 }
@@ -26,4 +26,5 @@ function shipLength({name, length, mesurementUnit = 'meters'}){
 assert.equal(shipLength(ships[0]), "Titanic is 269.1 meters long")
 assert.equal(shipLength(ships[1]), "Queen Mary 2 is 1132 feet long")
 assert.equal(shipLength(ships[2]), "Yamato is 256 meters long")
+
     
