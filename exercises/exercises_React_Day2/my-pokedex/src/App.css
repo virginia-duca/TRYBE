@@ -1,0 +1,14 @@
+.poke-card {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 40%;
+  margin: 30px 30px;
+  text-align: center;
+  
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
